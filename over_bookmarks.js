@@ -36,7 +36,7 @@
 
         do {
             // Call function
-            console.log(cur_pos);
+            //console.log(cur_pos);
             act();
 
             // Go next
@@ -54,7 +54,7 @@
 
         // Copy line
         cur_line_str = Editor.GetLineStr(0);
-        console.log(cur_line_str);
+        //console.log(cur_line_str);
 
         // Set new clipboard
         Editor.SetClipboard(0, cur_clip + cur_line_str);
