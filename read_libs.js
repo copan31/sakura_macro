@@ -16,8 +16,6 @@
         }
     }
 
-    var CONFIG = {};
-
     libs = [
         "./lib/test.js"
     ]
@@ -42,6 +40,5 @@
     objFS = null;
 
     // Execute    
-    var debug_mode = typeof CONFIG.DEBUG_MODE !== 'undefined' ? CONFIG.DEBUG_MODE : "true1";
-    console.log(debug_mode);
+    console.log(test_func());
 }())
